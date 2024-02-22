@@ -7,6 +7,12 @@ import (
 	"net/http"
 )
 
+const (
+	owner = "pedrecho"               // Replace with the repo owner's username
+	repo  = "development_management" // Replace with the repository name
+	path  = ""                       // Directory path within the repo (leave empty for root)
+)
+
 // Define a struct to parse the JSON response
 type GithubContent struct {
 	Name string `json:"name"`
@@ -14,9 +20,6 @@ type GithubContent struct {
 }
 
 func main() {
-	owner := "pedrecho"              // Replace with the repo owner's username
-	repo := "development_management" // Replace with the repository name
-	path := ""                       // Directory path within the repo (leave empty for root)
 
 	// Construct the API URL
 	apiUrl := fmt.Sprintf("https://api.github.com/repos/%s/%s/contents/%s", owner, repo, path)
