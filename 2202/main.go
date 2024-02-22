@@ -8,9 +8,9 @@ import (
 )
 
 const (
-	owner = "pedrecho"               // Replace with the repo owner's username
-	repo  = "development_management" // Replace with the repository name
-	path  = ""                       // Directory path within the repo (leave empty for root)
+	owner = "openai"        // Replace with the repo owner's username
+	repo  = "openai-python" // Replace with the repository name
+	path  = ""              // Directory path within the repo (leave empty for root)
 )
 
 // Define a struct to parse the JSON response
