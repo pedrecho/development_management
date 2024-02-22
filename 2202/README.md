@@ -1,7 +1,7 @@
 Код делает запрос к репозиторию пользователя и вывоидт все файлы и папки в текущей директории с подписью типа
 
 Результат работы программы при константах
-owner = "pedrecho"          
-repo = "development_management" 
-path = ""  
+1. owner = "pedrecho"          
+2. repo = "development_management" 
+3. path = ""  
 ![Результат](./img.png)
