@@ -1,8 +1,8 @@
 const { Builder, By, until } = require('selenium-webdriver');
 const chrome = require('selenium-webdriver/chrome');
 
-const myEmail = '215800@edu.fa.ru';
-const myPassword = '*dWUsG36Hgu5Kfq';
+const myEmail = '';
+const myPassword = '';
 
 async function loginToNotion() {
     let options = new chrome.Options();
